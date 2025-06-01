@@ -159,10 +159,6 @@ footer {
   margin-top: 25px;
 }
 
-.copyright-info {
-  margin-bottom: 0;
-}
-
 @media (max-width: 570px) {
   .sidebar {
     position: relative;
@@ -178,5 +174,9 @@ footer {
     padding-top: 35px;
     padding-left: 35px;
     padding-right: 35px;
+  }
+
+  .copyright-info {
+    margin-bottom: 0;
   }
 }

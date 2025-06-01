@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-image: url('/Assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  background-position: center;
+}
+
+h1, h2 {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-family: Arial;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-family: Arial;
+  text-align: center;
+}
+
+ul {
+  font-family: Arial;
+
+  padding: 0;
+
+  margin: 0;
+  margin-bottom: 25px;
+
+  list-style-position: inside;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: start;
+
+  position: fixed;
+
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  width: 500px;
+  height: 100vh;
+
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(3px);
+
+  overflow-y: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  flex: 1;
+
+  padding-bottom: 25px;
+}
+
+.logo {
+  width: 100%;
+
+  margin-bottom: 25px;
+}
+
+.pricing-terms {
+  font-style: italic;
+}
+
+.info-card-container {
+  display: flex;
+  flex-direction: row;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  margin-bottom: 25px;
+
+  background-color: rgba(39, 179, 255, 0.5);
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.highlight {
+  width: 25px;
+  background-color: rgb(19, 172, 255);
+}
+
+.info {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.button-flexbox {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  justify-content: space-evenly;
+}
+
+a {
+  background-color: rgb(49, 172, 255);
+
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+  text-decoration: none;
+  text-align: center;
+
+  width: 200px;
+
+  border: none;
+  border-radius: 8px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+a:hover {
+  cursor: pointer;
+
+  transform: translateY(-3px);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+
+  margin-top: 25px;
+}
+
+@media (max-width: 650px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    margin-right: 35px;
+  }
+}

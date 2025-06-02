@@ -6,6 +6,8 @@ body {
   height: 100vh;
 
   background-position: center;
+
+  overflow: hidden;
 }
 
 h1, h2 {

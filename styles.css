@@ -150,7 +150,7 @@ a {
   text-decoration: none;
 }
 
-footer {
+.copyright-container {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 

@@ -129,6 +129,8 @@ ul {
 
   flex: 1;
 
+  min-width: 150px;
+
   border: none;
   border-radius: 8px;
 

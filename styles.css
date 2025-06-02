@@ -163,7 +163,6 @@ footer {
   .sidebar {
     position: relative;
     width: 100%;
-    height: auto;
     overflow-x: hidden;
 
     padding-top: 0;

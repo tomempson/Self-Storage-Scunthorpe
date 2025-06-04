@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url('/Assets/background.png');
+  background-image: url('/Assets/background.webp');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100dvh;
@@ -35,6 +35,10 @@ ul {
   margin-bottom: 25px;
 
   list-style-position: inside;
+}
+
+li::marker {
+  color: rgb(19, 172, 255);
 }
 
 .bold {
@@ -100,7 +104,6 @@ ul {
 }
 
 .highlight {
-  width: 25px;
   background-color: rgb(19, 172, 255);
 }
 
